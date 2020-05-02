@@ -36,7 +36,7 @@ public class Player {
 		if(y < width)
 			y = width;
 		
-		System.out.println("Y: " + y + " GH: "+ Game.HEIGHT);
+		// System.out.println("Y: " + y + " GH: "+ Game.HEIGHT);
 		
 		if(y > Game.HEIGHT)
 			Game.restart();
